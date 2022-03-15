@@ -11,7 +11,7 @@ for i in range(5):
     dados = np.random.randint(20,300,4) #intervalo de numeros gerados e quantidade de barras (deve coincidir com a quantidade de elementos 'x')
     plt.cla()
     plt.clf()
-    plt.bar(x,dados,color='red')
+    plt.bar(x,dados,color='red',width=0.25)
     plt.xlabel('O que foi avaliado')
     plt.ylabel('Quantidade de Pessoas Avaliadas')
     plt.title('Pesquisa de satisfação')
